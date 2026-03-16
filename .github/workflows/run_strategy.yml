@@ -3,7 +3,7 @@ name: ETF Momentum Strategy
 on:
   schedule:
     # 每天北京时间 14:20 执行 (14:20 - 8 = 06:20 UTC)
-    - cron: '20 6 * * *'
+    - cron: '0 6 * * 5'
   workflow_dispatch: # 支持手动点击运行
 
 jobs:
